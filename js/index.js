@@ -9,5 +9,5 @@ while (dicePlayer1 === dicePlayer2){
 document.querySelector("img.img1").setAttribute("src", "images/dice" + dicePlayer1 + ".png");
 document.querySelector("img.img2").setAttribute("src", "images/dice" + dicePlayer2 + ".png");
 
-document.querySelector("h2.winner").textContent = "Player " + ((dicePlayer1 > dicePlayer2) ? "1" : "2") + " wins!";
+document.querySelector("h1.winner").textContent = "Player " + ((dicePlayer1 > dicePlayer2) ? "1" : "2") + " wins!";
 
